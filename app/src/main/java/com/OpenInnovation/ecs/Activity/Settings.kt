@@ -1,8 +1,9 @@
-package com.OpenInnovation.ecs.front
+package com.OpenInnovation.ecs.Activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.OpenInnovation.ecs.R
+
 
 class Settings : AppCompatActivity() {
 

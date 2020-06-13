@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.openinnovation">
+    package="com.OpenInnovation.ecs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,14 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AjtStation"></activity>
-        <activity android:name=".SecondMain" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".Station" />
-        <activity android:name=".AjoutStation" />
-        <activity android:name=".StationAjt" />
-        <activity android:name=".ConnexionAdmin" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.AjtStation"/>
+        <activity android:name=".Activity.SecondMain" />
+        <activity android:name=".Activity.ConnexionAdmin" />
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

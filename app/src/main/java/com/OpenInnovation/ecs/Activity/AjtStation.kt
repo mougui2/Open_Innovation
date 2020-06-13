@@ -1,8 +1,9 @@
-package com.example.openinnovation
+package com.OpenInnovation.ecs.Activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.OpenInnovation.ecs.R
 import kotlinx.android.synthetic.main.activity_ajt_station.*
 
 class AjtStation : AppCompatActivity() {
